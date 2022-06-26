@@ -1,0 +1,81 @@
+
+/* reset page to margin and padding 0 */
+body 
+{
+    margin: 0;
+    padding: 0:
+}
+
+/* reset all image to 100% max width */
+img 
+{
+    max-width: 100%;
+}
+
+nav 
+{
+    background-color: #023249;
+    height: 90px;
+    display: flex;
+    /* move the nav ul to center horizontally */
+    justify-content: center;
+    /* move the nav ul to center vertically */
+    align-items: center;
+
+    
+}
+
+nav ul li
+{
+    display: inline-block;
+    font-size: 15px; 
+    padding: 10px;
+   
+   
+}
+
+nav ul a 
+{
+    color: orange;
+    max-width: 100%;
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+nav ul i 
+{
+    padding-right: 5px;
+}
+
+/* format business logo */
+#business-logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+}
+
+
+/* fomrat for mobiel device */
+@media (max-width: 1000px)
+{
+
+/* hide the nave bar when on mobile */
+nav 
+{
+    display: none;
+}
+
+#business-logo 
+{
+    padding-top: 20px;
+    
+}
+
+
+}
+
